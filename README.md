@@ -42,7 +42,7 @@ In step 3, we predict keywords using a pre-trained model (XGBoost2). The model i
 
 
 # Usage Instruction
-The proposed framework is implemented using R (version 3.3.1) and relevant packages5 (igraph, tm, RWeka, caret and pROC). To obtain certain node properties we also use a python script. Below, we present the pipeline for testing an unseen document.
+The proposed framework is implemented using R (version 3.3.1) and relevant packages5 (igraph, tm, RWeka, caret and pROC). Below, we present the pipeline for testing an unseen document.
 
 
 # Pipeline for testing unseen documents
