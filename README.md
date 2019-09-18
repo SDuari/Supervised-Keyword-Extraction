@@ -6,9 +6,11 @@ Journal Paper:
 Duari, S., & Bhatnagar, V. (2019). Complex Network based Supervised Keyword Extractor. Expert Systems with Applications, v. 140, p. 112876.
 
 Article DOI: https://doi.org/10.1016/j.eswa.2019.112876
+
 Article Link: https://www.sciencedirect.com/science/article/pii/S095741741930586X
 
 # Citation
+```tex
 @article{DUARI2020112876,
 title = "Complex Network based Supervised Keyword Extractor",
 journal = "Expert Systems with Applications",
@@ -21,6 +23,7 @@ url = "http://www.sciencedirect.com/science/article/pii/S095741741930586X",
 author = "Swagata Duari and Vasudha Bhatnagar",
 keywords = "Supervised keyword extraction, Complex network, Graph-theoretic node properties, Text graph."
 }
+```
 
 # Usage Instruction
 
