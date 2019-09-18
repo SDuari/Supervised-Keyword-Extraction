@@ -52,14 +52,6 @@ The proposed framework is implemented using R (version 3.3.1) and relevant packa
 
 3. Run '3-create-graph.R' to create graph-of-text.
 
-4. Run '4-convert-adjmat-to-edgelist.R' to convert the graph to edgelists.
+4. Run '4-extract-node-properties.R' to extract node properties from graph-of-text.
 
-5. Compute weighted coreness using the following command (python script):
-
-          python 5-WtCoreness.py '/path/to/input/directory/edgelists/'
-   
-   (Reformatted and reused this script. The Author of python script is my collegue.)
-
-6. Run '6-extract-node-properties.R' to extract node properties from graph-of-text.
-
-7. Run '7-XGB-predict-keywords.R' to predict keywords using pre-trained model.
+5. Run '5-XGB-predict-keywords.R' to predict keywords using pre-trained model.
