@@ -46,20 +46,20 @@ The proposed framework is implemented using R (version 3.3.1) and relevant packa
 
 
 # Pipeline for testing unseen documents
-1. Run 'create-position-info.R' to compute positional information.
+1. Run '1-create-positional-info.R' to compute positional information.
 
-2. Run 'compute-sigma-index.R' to compute sigma-index.
+2. Run '2-compute-sigma-index.R' to compute sigma-index.
 
-3. Run 'create-graph.R' to create graph-of-text.
+3. Run '3-create-graph.R' to create graph-of-text.
 
-4. Run 'convert-adjmat-to-edgelist.R' to convert the graph to edgelists.
+4. Run '4-convert-adjmat-to-edgelist.R' to convert the graph to edgelists.
 
 5. Compute weighted coreness using the following command (python script):
 
-          python WtCoreness.py '/path/to/input/directory/Edgelist/'
+          python 5-WtCoreness.py '/path/to/input/directory/edgelists/'
    
    (Reformatted and reused this script. The Author of python script is my collegue.)
 
-6. Run 'extract-graph-properties.R' to extract node properties from graph-of-text.
+6. Run '6-extract-node-properties.R' to extract node properties from graph-of-text.
 
-7. Run 'XGB-predict-keywords.R' to predict keywords using pre-trained model.
+7. Run '7-XGB-predict-keywords.R' to predict keywords using pre-trained model.
