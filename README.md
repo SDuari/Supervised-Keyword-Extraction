@@ -6,9 +6,9 @@ We present a supervised framework for automatic keyword extraction from single d
 
 Duari, S., & Bhatnagar, V. (2019). Complex Network based Supervised Keyword Extractor. Expert Systems with Applications, v. 140, p. 112876.
 
-Article DOI: https://doi.org/10.1016/j.eswa.2019.112876
+Article DOI: [10.1016/j.eswa.2019.112876](https://doi.org/10.1016/j.eswa.2019.112876)
 
-Article Link: ScienceDirect(https://www.sciencedirect.com/science/article/pii/S095741741930586X), arxiv(https://arxiv.org/pdf/1909.12009.pdf)
+Article Link: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S095741741930586X), [arXiv](https://arxiv.org/pdf/1909.12009.pdf)
 
 ### Citation
 ```tex
@@ -33,7 +33,7 @@ The testing phase of the proposed supervised framework consists of the following
   2. Extract select node properties as features from each graph-of-text.
   3. Predict keywords using the pre-trained model.
   
-In step 1, we perform document pre-processing (tokenization, text cleaning, and stopwords removal) and identify candidates using a statistical filter, σ-index (Ortuno et al., 2002), which computes normalized standard deviation of the word’s spacing distribution in successive occurrences, with higher values of σ-index indicating higher term relevance. We use CAG representation (Check our earlier work Duari et al., 2019, http://www.sciencedirect.com/science/article/pii/S0020025518308521, https://github.com/SDuari/sCAKE-and-LAKE) to model texts as graphs, where the candidates are represented as nodes and links between candidates are based on a co-occurrence relation of two consecutive sentences. In particular, we link two nodes if they co-occur within two consecutive sentences. Please note that the computation of σ-index requires a word to occur at least twice in the document. Furthermore, as words in short texts do not occur frequently, we omit the computation of σ-index for documents with less than 100 unique words excluding stopwords. In such situations, each word retained after document pre-processing is considered a candidate keyword.
+In step 1, we perform document pre-processing (tokenization, text cleaning, and stopwords removal) and identify candidates using a statistical filter, σ-index (Ortuno et al., 2002), which computes normalized standard deviation of the word’s spacing distribution in successive occurrences, with higher values of σ-index indicating higher term relevance. We use CAG representation (Check our earlier work [Duari et al., 2019] (http://www.sciencedirect.com/science/article/pii/S0020025518308521) and [github repo] (https://github.com/SDuari/sCAKE-and-LAKE) to model texts as graphs, where the candidates are represented as nodes and links between candidates are based on a co-occurrence relation of two consecutive sentences. In particular, we link two nodes if they co-occur within two consecutive sentences. Please note that the computation of σ-index requires a word to occur at least twice in the document. Furthermore, as words in short texts do not occur frequently, we omit the computation of σ-index for documents with less than 100 unique words excluding stopwords. In such situations, each word retained after document pre-processing is considered a candidate keyword.
 
 In step 2, we extract 6 node properties from the graph-of-texts, namely, strength, eigenvector centrality, PageRank, PositionRank, weighted coreness, and clustering coefficient. We construct the test set by assiging '?' (unknown) label to each candidate, and pass it on to the nest step for prediction.
 
@@ -41,7 +41,7 @@ In step 3, we predict keywords using a pre-trained model (XGBoost2). The model i
 
 
 # Usage Instruction
-The proposed framework is implemented using R (version 3.3.1) and relevant packages5 (igraph, tm, RWeka, caret and pROC). Below, we present the pipeline for testing an unseen document.
+The proposed framework is implemented using R (version 3.3.1) and relevant packages (igraph, tm, RWeka, caret and pROC). Below, we present the pipeline for testing an unseen document.
 
 
 ### Pipeline for testing unseen documents
@@ -57,5 +57,5 @@ The proposed framework is implemented using R (version 3.3.1) and relevant packa
 
 
 # Related Project
-### sCAKE and LAKE
-https://github.com/SDuari/sCAKE-and-LAKE - sCAKE is an unsupervised method for automatic keyword extraction. LAKE is the language-agnostic version of sCAKE.
+### [sCAKE and LAKE](https://github.com/SDuari/sCAKE-and-LAKE)
+sCAKE is an unsupervised method for automatic keyword extraction. LAKE is the language-agnostic version of sCAKE. The work was published in the journal of Information Sciences.
