@@ -8,7 +8,7 @@ Duari, S., & Bhatnagar, V. (2019). Complex Network based Supervised Keyword Extr
 
 Article DOI: https://doi.org/10.1016/j.eswa.2019.112876
 
-Article Link: https://www.sciencedirect.com/science/article/pii/S095741741930586X
+Article Link: ScienceDirect(https://www.sciencedirect.com/science/article/pii/S095741741930586X), arxiv(https://arxiv.org/pdf/1909.12009.pdf)
 
 ### Citation
 ```tex
@@ -29,7 +29,7 @@ keywords = "Supervised keyword extraction, Complex network, Graph-theoretic node
 # Description
 The testing phase of the proposed supervised framework consists of the following steps.
 
-  1. Select candidate keywords from each document, and con- struct the corresponding graph-of-text.
+  1. Select candidate keywords from each document, and construct the corresponding graph-of-text.
   2. Extract select node properties as features from each graph-of-text.
   3. Predict keywords using the pre-trained model.
   
