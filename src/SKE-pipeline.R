@@ -9,10 +9,6 @@ library(openNLP)
 library(igraph)
 
 # for applying model to predict keywords
-library(caret)
-library(ROCR)
-library(e1071)
-library(RWeka)
 library(xgboost)
 
 # miscellaneous utility packages 
