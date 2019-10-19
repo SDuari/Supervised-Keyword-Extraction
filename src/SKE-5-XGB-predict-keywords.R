@@ -3,14 +3,6 @@
 #                     (XGBOOST with SMOTE-balancing)                       #
 ############################################################################
 
-# ------------- LIBRARIES
-library(caret)
-library(ROCR)
-library(e1071)
-library(RWeka)
-library(xgboost)
-
-
 # ------------- MAIN CODE
 
 # create directory, if not exist,  to store prediction data
