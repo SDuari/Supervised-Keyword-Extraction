@@ -45,15 +45,17 @@ The proposed framework is implemented using R (version 3.3.1) and relevant packa
 
 
 ### Pipeline for testing unseen documents
-1. Run `1-create-positional-info.R` to compute positional information.
+1. Run `SKE-pipeline.R`. This function execute following scripts in the given sequence. It also executes `SKE-0-helper-functions.R` to run some helper functions.
 
-2. Run `2-compute-sigma-index.R` to compute sigma-index.
+    a) `SKE-1-create-position-info-LAKE.R` to get positional information.
 
-3. Run `3-create-graph.R` to create graph-of-text.
+    b) `SKE-2-compute-sigma-index-LAKE.R` to compute sigma-index.
 
-4. Run `4-extract-node-properties.R` to extract node properties from graph-of-text.
+    c) `SKE-3-Create-graph-LAKE.R` to create graph-of-text.
 
-5. Run `5-XGB-predict-keywords.R` to predict keywords using pre-trained model.
+    d) `SKE-4-extract-node-properties.R` to extract node properties from graph-of-text.
+
+    e) `SKE-5-XGB-predict-keywords.R` to predict keywords using pre-trained model.
 
 
 # Related Project
