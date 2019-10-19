@@ -25,7 +25,7 @@ source("/path/to/R/scripts/SKE-0-helper-functions.R")
 
 # ------------- SETTING UP SOME GLOBAL VARIABLES
 
-dataset = "alka" # The name of dataset, e.g., Hulth2003
+dataset = "myDataset" # The name of dataset, e.g., Hulth2003
 path = "/path/to/main/folder/" # path to main folder where all subsequent results are stored
 model_path = "/path/to/preTrained/Models/" # path where the models are located
 
