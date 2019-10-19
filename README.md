@@ -61,3 +61,32 @@ The proposed framework is implemented using R (version 3.3.1) and relevant packa
 # Related Project
 ### [sCAKE and LAKE](https://github.com/SDuari/sCAKE-and-LAKE)
 sCAKE is an unsupervised method for automatic keyword extraction. LAKE is the language-agnostic version of sCAKE. The work was published in the journal of Information Sciences.
+
+# Further Reading
+Please refer to the following papers to know more about specific algorithms.
+
+### 1. σ-index
+Ortuno, M., Carpena, P., Bernaola-Galván, P., Munoz, E., & Somoza, A. M. (2002). Keyword detection in natural languages and DNA. EPL (Europhysics Letters), 57(5), 759.
+
+Herrera, J. P., & Pury, P. A. (2008). Statistical keyword detection in literary corpora. The European Physical Journal B, 63(1), 135-146.
+
+### PageRank/TextRank
+Page, L., Brin, S., Motwani, R., & Winograd, T. (1999). The PageRank citation ranking: Bringing order to the web. Stanford InfoLab.
+
+Brin, S., & Page, L. (1998). The anatomy of a large-scale hypertextual web search engine. Computer networks and ISDN systems, 30(1-7), 107-117.
+
+Mihalcea, R., & Tarau, P. (2004). Textrank: Bringing order into text. In Proceedings of the 2004 conference on empirical methods in natural language processing (pp. 404-411).
+
+### PositionRank
+(Full paper) Florescu, C., & Caragea, C. (2017, July). Positionrank: An unsupervised approach to keyphrase extraction from scholarly documents. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 1105-1115).
+
+(Short paper) Florescu, C., & Caragea, C. (2017, February). A position-biased pagerank algorithm for keyphrase extraction. In Thirty-First AAAI Conference on Artificial Intelligence.
+
+### Coreness (*k*-cores)
+Seidman, S. B. (1983). Network structure and minimum degree. Social networks, 5(3), 269-287.
+
+### Strength (weighted degree)
+Barrat, A., Barthelemy, M., Pastor-Satorras, R., & Vespignani, A. (2004). The architecture of complex weighted networks. Proceedings of the national academy of sciences, 101(11), 3747-3752.
+
+### Eigenvector Centrality and Clustering Coefficient
+Zaki, M. J., Meira Jr, W., & Meira, W. (2014). Data mining and analysis: fundamental concepts and algorithms. Cambridge University Press.
