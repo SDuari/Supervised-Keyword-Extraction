@@ -29,9 +29,8 @@ model_path = "/path/to/preTrained/Models/" # path where the models are located
 my_stopwords <- readLines("/path/to/stopwords/file/stopwords.txt") # reads the list of stopwords. Update the path where stopwords list is located
 
 pat = ".*.txt" # .txt is the extension of input documents. Replace, if necessary, with correct extension
-stem = FALSE # whether to apply stemming. FALSE for Supervised KE algo.
 eng = TRUE # Is this English language text? Set FALSE for non-english texts.
-apply_sigma = FALSE # Set to FALSE if text length is less that 100-150 words 
+apply_sigma = TRUE # Set to FALSE if text length is less that 100-150 words 
 
 # ------------- SETTING UP PATHS TO STORE AND LOAD DATA
 data_path = paste0(path, "data/") # path to text files
