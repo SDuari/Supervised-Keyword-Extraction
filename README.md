@@ -65,7 +65,7 @@ sCAKE is an unsupervised method for automatic keyword extraction. LAKE is the la
 # Further Reading
 Please refer to the following papers to know more about specific algorithms.
 
-### 1. σ-index
+### σ-index
 Ortuno, M., Carpena, P., Bernaola-Galván, P., Munoz, E., & Somoza, A. M. (2002). Keyword detection in natural languages and DNA. EPL (Europhysics Letters), 57(5), 759.
 
 Herrera, J. P., & Pury, P. A. (2008). Statistical keyword detection in literary corpora. The European Physical Journal B, 63(1), 135-146.
