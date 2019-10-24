@@ -6,7 +6,7 @@ We present a supervised framework for automatic keyword extraction from single d
 
 Duari, S., & Bhatnagar, V. (2019). Complex Network based Supervised Keyword Extractor. Expert Systems with Applications, v. 140, p. 112876.
 
-Article DOI: [10.1016/j.eswa.2019.112876](https://doi.org/10.1016/j.eswa.2019.112876)
+[![DOI:10.1016/j.eswa.2019.112876](https://zenodo.org/badge/DOI/10.1016/j.eswa.2019.112876.svg)](https://doi.org/10.1016/j.eswa.2019.112876)
 
 Article Link: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S095741741930586X), [arXiv](https://arxiv.org/pdf/1909.12009.pdf)
 
