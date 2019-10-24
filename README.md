@@ -43,7 +43,7 @@ The proposed framework is implemented using R (version 3.3.1) and relevant packa
 
 
 ### Pipeline for testing unseen documents
-1. Run `SKE-pipeline.R`. This function execute following scripts in the given sequence. It also executes `SKE-0-helper-functions.R` to run some helper functions.
+1. Run `SKE-pipeline.R`. This function executes following scripts in the given sequence. It also executes `SKE-0-helper-functions.R` to run some helper functions. User needs to put the text documents in a subfolder 'data/' which should be inside a main folder. The user needs to update - (i) the path to the main folder and (ii) path to the corresponding stopwords list. The main folder stores intermediate and final results inside specific subfolders, e.g. subfolder 'Predictions/' stores the predicted keywords per text document. These subfolders, except 'data/' (which needs to be created explicitly by the user), are created automatically as and when required.
 
     a) `SKE-1-create-position-info-LAKE.R` to get positional information.
 
